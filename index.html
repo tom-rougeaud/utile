@@ -182,8 +182,8 @@ footer.foot a{color:#fff;text-decoration:none;font-weight:800}footer.foot a:hove
 
 <header class="top">
   <div class="brand">
-    <img id="hdr-logo" alt="Logo du Casier Pédagogique Numérique" width="46" height="46">
-    <h1>Casier Pédagogique Numérique<small>// Tom Rougeaud</small></h1>
+    <img id="hdr-logo" alt="Logo du Casier de ressources IA" width="46" height="46">
+    <h1Casier de ressources pédagogiques IA<small>// utiles en classe ou pour optimisier le travail</small></h1>
   </div>
   <nav class="hnav" aria-label="Navigation principale" id="hnav"></nav>
 </header>
@@ -205,9 +205,8 @@ footer.foot a{color:#fff;text-decoration:none;font-weight:800}footer.foot a:hove
 
 <script type="application/json" id="cpn-texts">
 {
- "about":{"t":"À propos","h":"<p><b>Casier Pédagogique Numérique</b> est le casier personnel de ressources pédagogiques de <b>Tom Rougeaud</b>, professeur de Maths-Sciences en lycée professionnel : jeux, exerciseurs, outils, cours et activités.</p><p>Les ressources sont classées par thèmes et par public cible. Chaque fiche donne accès à la ressource et, éventuellement, à des fichiers joints (PDF, pages HTML…).</p><p>Astuce : le cœur ♥ d’une carte l’ajoute à vos favoris, conservés uniquement sur votre appareil.</p><p style=\"opacity:.8;font-size:.9em\">Pour les nostalgiques : le casier existe aussi en <a href=\"themes/\">thèmes rétro</a> (Windows 98, Windows XP, Macintosh).</p>"},
- "privacy":{"t":"Confidentialité","h":"<p>Ce site <b>ne collecte aucune donnée personnelle</b> sur ses visiteurs : pas de compte, pas de cookie de suivi, pas de statistiques, pas de publicité.</p><ul><li>Vos <b>favoris</b> et préférences (tri) sont enregistrés <b>uniquement dans votre navigateur</b> (stockage local). Le bouton « Effacer » les supprime.</li><li>Le catalogue (titres, descriptions, fichiers) est hébergé chez <b>Supabase</b> ; une simple lecture est effectuée à l’ouverture de la page.</li><li>La police <b>Plus Jakarta Sans</b> (Google Fonts) et deux bibliothèques (jsDelivr) sont chargées depuis leurs serveurs : leurs hébergeurs peuvent voir votre adresse IP, comme pour toute page web.</li></ul><p>Seul l’auteur, connecté avec un compte protégé par mot de passe, peut modifier le contenu.</p>"},
- "licence":{"t":"Licence","h":"<p>Sauf mention contraire sur une fiche, les contenus de ce casier sont publiés sous licence <b>Creative Commons Attribution – Pas d’utilisation commerciale 4.0 (CC BY-NC 4.0)</b>.</p><p>Vous pouvez les utiliser, les adapter et les partager librement, à condition de citer <b>Tom Rougeaud</b> et de ne pas en faire un usage commercial.</p><p><a href=\"https://creativecommons.org/licenses/by-nc/4.0/deed.fr\" target=\"_blank\" rel=\"noopener noreferrer\">Lire la licence complète</a></p>"},
+ "about":{"t":"À propos","h":"<p><b>Casier de ressources pédagogiques IA</b> est une compilations d'outils, de site, de jeux, ressources pédagogiques.<p>Les ressources sont classées par thèmes et par public cible. Chaque fiche donne accès à la ressource et, éventuellement, à des fichiers joints (PDF, pages HTML…).</p><p>Astuce : le cœur ♥ d’une carte l’ajoute à vos favoris, conservés uniquement sur votre appareil.</p><p style=\"opacity:.8;font-size:.9em\">Pour les nostalgiques : le casier existe aussi en <a href=\"themes/\">thèmes rétro</a> (Windows 98, Windows XP, Macintosh).</p>"},
+ "privacy":{"t":"Confidentialité","h":"<p>Ce site <b>ne collecte aucune donnée personnelle</b> sur ses visiteurs : pas de compte, pas de cookie de suivi, pas de statistiques, pas de publicité.</p><ul><li>Vos <b>favoris</b> et préférences (tri) sont enregistrés <b>uniquement dans votre navigateur</b> (stockage local). Le bouton « Effacer » les supprime.</li><li>Le catalogue (titres, descriptions, fichiers) est hébergé chez <b>Supabase</b> ; une simple lecture est effectuée à l’ouverture de la page.</li><li>La police <b>Plus Jakarta Sans</b> (Google Fonts) et deux bibliothèques (jsDelivr) sont chargées depuis leurs serveurs : leurs hébergeurs peuvent voir votre adresse IP, comme pour toute page web.</li></ul><p>Seul l’auteur, connecté avec un compte protégé par mot de passe, peut modifier le contenu.</p>
  "data":{"t":"Données","h":"<p>Ce que le casier enregistre, et où :</p><ul><li><b>Sur le serveur (Supabase)</b> : les fiches de ressources, les catégories (thèmes / public cible), les images et les fichiers joints. Rien sur les visiteurs.</li><li><b>Sur votre appareil</b> : la liste de vos favoris et votre tri préféré (clés commençant par <code>cpn2_</code>).</li></ul><p>Vous pouvez tout supprimer côté appareil avec le bouton « Effacer ».</p>"}
 }
 </script>
@@ -216,7 +215,7 @@ footer.foot a{color:#fff;text-decoration:none;font-weight:800}footer.foot a:hove
 'use strict';
 /* ═════════ CONFIG ═════════ */
 const APP='cpn2_';
-const OWNER='Tom Rougeaud';
+const OWNER='Ressources IA';
 const SB_URL='https://idctzlupjkczmstdlyfn.supabase.co';
 const SB_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlkY3R6bHVwamtjem1zdGRseWZuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIxMjUxMTUsImV4cCI6MjA5NzcwMTExNX0.8vDhJqyLUoxvdiavTg3AweO2_cA8jglJIG0d_mjJwpU';
 const B_FILES='fichiers', B_IMG='images';
